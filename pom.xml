@@ -5,8 +5,15 @@
     <groupId>2.0</groupId>
     <version>2.0</version>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>netty-chat</artifactId>
+
+    <!-- import spring-boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath/>
+    </parent>
     <build>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
